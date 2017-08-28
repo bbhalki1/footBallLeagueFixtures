@@ -73,7 +73,7 @@ Handlebars.registerHelper('teamID', function (teamUrl) {
     return teamUrl.slice(38);
 });
 
-erver.start((err) => {
+server.start((err) => {
     if (err) {
         throw err;
     }
